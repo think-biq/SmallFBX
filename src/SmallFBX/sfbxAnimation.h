@@ -166,6 +166,8 @@ public:
     void setRawValues(span<float> v); // set values without unit conversion
     void addValue(float time, float value);
 
+    std::string getLinkName() { return m_link_name; }
+
 protected:
     void importFBXObjects() override;
     void exportFBXObjects() override;
