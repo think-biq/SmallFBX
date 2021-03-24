@@ -1,6 +1,10 @@
 #pragma once
 
+#ifdef _SFBX_DEBUG_LOG_
 #define sfbxPrint(...) printf(__VA_ARGS__)
+#else
+#define sfbxPrint(...)
+#endif
 
 namespace sfbx {
 
