@@ -1,6 +1,6 @@
 #pragma once
 #include "sfbxObject.h"
-#
+
 namespace sfbx {
 
 enum class FileVersion : int
